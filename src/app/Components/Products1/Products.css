@@ -1,0 +1,64 @@
+.products-list{
+  width: 300px;
+  overflow: hidden;
+  border: 1px solid #d3d1d1;
+  background-image: url("/deals.png");
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.products-list h4{
+  font-size: 20px;
+  padding:10px 20px;
+  font-weight: 600;
+ max-width: 170px;
+}
+.outdoor-btn{
+  padding: 20px;
+}
+.products-list button{
+  padding: 5px 12px;
+  color: #000;
+  font-weight: 500;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+.product-first{
+  display: flex;
+ 
+}
+.item-listing{
+  width: 250px;
+  height: 140px;
+  display: flex;
+  border: 1px solid #d3d1d1;
+   padding: 25px;
+   justify-content: space-around;
+   overflow: hidden;
+  
+}
+.product-container-2{
+  margin-top: 20px;
+}
+.products-list-consumer{
+  width: 300px;
+  overflow: hidden;
+  border: 1px solid #d3d1d1;
+  background-image: url("/consumer.png");
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.products-list-consumer h4{
+  font-size: 20px;
+  padding:10px 20px;
+  font-weight: 600;
+ max-width: 230px;
+}
+.products-list-consumer button{
+  padding: 5px 12px;
+  color: #000;
+  font-weight: 500;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+}

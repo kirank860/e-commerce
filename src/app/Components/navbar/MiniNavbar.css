@@ -1,0 +1,73 @@
+
+.topnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+  
+  
+}
+.searchbar{
+    width: 50em;
+    border: 2.5px solid #0D6EFD;
+    padding: 2px;
+    border-radius: 10px;
+}
+.searchbar input{
+    width: 36em;
+    padding: 2.9px;
+    border: none;
+    outline: none;
+}
+
+.search{
+    background-color: #0D6EFD;
+   color: #fff;
+   padding: 8px 20px;
+   border-radius: 0 0px 0px 0px; 
+}
+.topicons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+ 
+}
+.topicons li{
+    list-style: none;
+    color: gray;
+    padding: 13px;
+    cursor: pointer;
+}
+.topicons p{
+    text-align: left;
+    margin-left: -10px;
+}
+.menus-icon{
+    margin-top: 25px;
+}
+hr{
+    margin-top: -30px;
+}
+/* -------------------second navbar---- */
+.hamburber{
+    padding-left: 60px;
+}
+.second-nav ul li{
+    list-style: none;
+    cursor: pointer;
+    margin-left: 12px !important;
+}
+.second-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second-nav-right{
+    display: flex;
+}
+.second-nav-right li{
+    list-style: none;
+    margin-left: 12px !important;
+}
+.nav-s-right{
+    margin-top: 1px !important;
+}

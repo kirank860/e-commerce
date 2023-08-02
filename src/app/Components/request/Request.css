@@ -1,0 +1,71 @@
+.request{
+    width: 100%;
+    height: 22rem;
+    /* border: 1px solid #000; */
+    background-image: linear-gradient(to right , #2C7CF1, transparent), url("/request.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px; 
+    /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+  }
+   .req-title {
+    padding: 15px;
+  }
+  .req-title h3{
+    color: #fff;
+    max-width: 59%;
+  }
+  .req-title p{
+    color: #fff;
+    max-width: 59%;
+  }
+  .request-input{
+    padding: 2em 0em 0em 10em;
+  }
+  .form{
+    padding: 20px;
+    width: 30rem;
+    height: 18rem;
+    /* border:  1px solid #000; */
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .form h5{
+    font-weight: 600;
+  }
+  .form input{
+    border: 1px solid rgb(179, 171, 171);
+    padding: 5px;
+    width: 100%;
+    border-radius: 6px;
+  
+  }
+  .form input::placeholder{
+    color: #000;
+  }
+  .form textarea{
+    margin-top: 5px;
+    border: 1px solid rgb(179, 171, 171);
+    padding: 5px;
+    width: 100%;
+    color: #a5a0a0;
+    border-radius: 6px;
+  }
+  .form button{
+    padding: 7px 30px;
+    background-color: #127FFF;
+    color: #fff !important;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  .quntity input{
+   width: 80%;
+   border-radius: 6px;
+  }
+  .quntity input::placeholder{
+    color: #000;
+    font-weight: 500;
+  }
